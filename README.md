@@ -22,13 +22,13 @@ Se você tem todos esses requisitos, por favor siga os seguintes passos **na ord
 
 #### `/enviar` - envia uma tabela para um produto. 
 *Um prompt será aberto para que sejam colocadas as informações essenciais, como nome do produto, descrição, preço e url da thumbnail da tabela. 
-Para usar esse comando, por favor leia mais informações [aqui.](#informações)*
+Para usar esse comando, por favor leia mais informações [aqui.](#dúvidas-principais)*
 
 #### `/additem` - adiciona um item ao estoque de um produto.
 *Esse comando deve ser usado quando você quer criar um novo produto ou adicionar um item para um produto já existente. Você deve passar para o comando as seguintes informações:*
 - **nome_produto** (nome do produto), 
 - **item** (informações que devem ser enviadas ao usuário quando ele comprar o produto),
-- *[opcional]* **qtd** (a quantidade de vezes que esta mesma combinação de produto e item devem ser adicionadas ao estoque). Por padrão, esse valor será 1. Não use um valor maior que 40. Mais informações [aqui.](#informações)
+- *[opcional]* **qtd** (a quantidade de vezes que esta mesma combinação de produto e item devem ser adicionadas ao estoque). Por padrão, esse valor será 1. Não use um valor maior que 40. Mais informações [aqui.](#dúvidas-principais)
 
 #### `/removeproduto` - remove todos os itens do estoque de um produto.
 
