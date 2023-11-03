@@ -28,7 +28,7 @@ Para usar esse comando, por favor leia mais informações [aqui.](#dúvidas-prin
 *Esse comando deve ser usado quando você quer criar um novo produto ou adicionar um item para um produto já existente. Você deve passar para o comando as seguintes informações:*
 - **nome_produto** (nome do produto), 
 - **item** (informações que devem ser enviadas ao usuário quando ele comprar o produto),
-- *[opcional]* **qtd** (a quantidade de vezes que esta mesma combinação de produto e item devem ser adicionadas ao estoque). Por padrão, esse valor será 1. Não use um valor maior que 40. Mais informações [aqui.](#dúvidas-principais)
+- *[opcional]* **qtd** (a quantidade de vezes que esta mesma combinação de produto e item devem ser adicionadas ao estoque). Por padrão, esse valor será 1. Não use um valor maior que 10. Mais informações [aqui.](#dúvidas-principais)
 
 #### `/removeproduto` - remove todos os itens do estoque de um produto.
 
@@ -84,6 +84,7 @@ Para obter esse tipo de **descrição**, você deve escrever:
 `Esse produto contém:\nBananas\nMorangos\nUvas`.
 
 - Uma **url para thumbnail** SEMPRE deve ser uma página que exibe apenas uma imagem. Exemplo: `https://upload.wikimedia.org/wikipedia/commons/7/74/White_domesticated_duck,_stretching.jpg`
+- Em qualquer comando, não é recomendável usar um valor maior que 50 para o parâmetro *qtd*. Se você quer que algum produto tenha um estoque "infinito", é recomendado usar o comando `/additem` com *qtd* igual a 50 quantas vezes forem necessário. Enquanto está sendo executado, não rode nenhum outro comando, e ao terminar, espere 5 segundos e rode novamente.
 ### Keys
 Por favor confira as informações relevantes sobre as keys abaixo:
 - Se você tem **2 ou mais** keys, por favor **NÃO** use o comando `/activate` várias vezes seguidas. Esse comando deve ser usado apenas **UMA VEZ** por mês, um ou dois dias antes de sua key expirar, usando uma nova key. *Detalhe: Não tem problema em esperar sua key expirar para usar o comando `/activate` novamente.*
