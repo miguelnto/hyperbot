@@ -58,7 +58,7 @@ Para usar esse comando, por favor leia mais informações [aqui.](#dúvidas-prin
 - *[opcional]* **avaliacao** (o número no qual sua entrega foi avaliada, deve ser um número de 0 a 5). Se esse número não for passado, a mensagem que aparecerá é "Nenhuma avaliação enviada".
 - *[opcional]* **desconto** (o valor do desconto dado) Caso não passado, será igual a 0.00.
 
-#### `/getdb` - devolve um arquivo txt da database.
+#### `/getdb` - devolve um arquivo txt do estoque.
 
 *Esse comando envia um arquivo .txt contendo todos os itens do estoque. Nada precisa ser passado.*
 
