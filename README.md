@@ -1,5 +1,7 @@
 # HyperBot
 
+![hyperbot repository thumbnail](hyperui.png)
+
 ## Configuração inicial e como usar
 
 Requisitos:
