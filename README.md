@@ -2,6 +2,9 @@
 
 ![hyperbot repository thumbnail](hyperui.png)
 
+A solução moderna para o mercado digital, com praticidade e simplicidade.
+
+
 ## Configuração inicial e como usar
 
 Requisitos:
