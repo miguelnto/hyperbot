@@ -23,6 +23,23 @@ Se você tem todos esses requisitos, por favor siga os seguintes passos **na ord
 -  Use o comando `/checar` para checar se o servidor foi configurado corretamente com a **chave SDK** e o **email**.
 - A configuração já foi feita e você pode começar a usar o bot!
 
+## Começando a usar
+
+1. Crie seu primeiro produto com o comando `/additem`, que cria um produto no estoque e já adiciona conteúdo para ele! Confira mais sobre esse comando em [comandos.](##Comandos Principais)
+
+![Adicione um item](additem.png)
+![Item adicionado com sucesso](additemresult.png)
+
+3. Envie uma tabela no estilo Embed para o seu produto com o comando `/enviar`. Vai abrir um prompt para que você configure a sua tabela.
+
+![Prompt para tabela](tabelapreenchida.png)
+
+![Anúncio de teste](anuncioteste.png)
+
+4. E aqui está seu primeiro anúncio! Note que:
+ - O título do seu produto ao enviar deve ser exatamente igual ao nome adicionado no estoque. (Letras maiúsculas ou minúsculas não importam)
+ - A quantidade disponível no estoque é obtida automaticamente!
+
 ## Como obter o token de acesso (chave SDK)
 
 O token de acesso (conhecido como chave SDK nesta documentação) é o que permite que sejam criados novas cobranças de pagamentos em seu nome, e por isso é necessário para a aplicação do HyperBot. Esse token é guardado na base de dados de forma segura o suficiente para que apenas o HyperBot tenha acesso, quando necessário. Veja abaixo como obter este token (dura em torno de 5 minutos!)
