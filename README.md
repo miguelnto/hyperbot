@@ -63,6 +63,16 @@ O token de acesso (conhecido como chave SDK nesta documentação) é o que permi
 
 Acima está uma figura detalhando o que você deve fazer.
 
+5. Você deve então ativar as credenciais, e informar alguns detalhes sobre o seu negócio, como segue abaixo.
+
+![Ativar credenciais](ativarcredenciais.png)
+![Ativar credenciais 2](ativarcredenciais2.png)
+
+6. Finalmente, clique em credenciais de produção, e então copie o Access Token, que é a sua chave SDK (ou token de acesso). Agora você já tem sua chave SDK e pode seguir para a [configuração inicial.](#configuração-inicial-e-como-usar)
+
+![Credenciais de produção](credenciais.png)
+![Credenciais de produção 2](credenciais2.png)
+
 ## Comandos Principais
 
 #### `/enviar` - envia uma tabela para um produto. 
