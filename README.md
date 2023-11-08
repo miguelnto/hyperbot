@@ -25,18 +25,18 @@ Se você tem todos esses requisitos, por favor siga os seguintes passos **na ord
 
 ## Começando a usar
 
-1. Crie seu primeiro produto com o comando `/additem`, que cria um produto no estoque e já adiciona conteúdo para ele! Confira mais sobre esse comando em [comandos.](##Comandos Principais)
+1. Crie seu primeiro produto com o comando `/additem`, que cria um produto no estoque e já adiciona conteúdo para ele! Confira mais sobre esse comando em [comandos.](##comandos-principais)
 
 ![Adicione um item](additem.png)
 ![Item adicionado com sucesso](additemresult.png)
 
-3. Envie uma tabela no estilo Embed para o seu produto com o comando `/enviar`. Vai abrir um prompt para que você configure a sua tabela.
+2. Envie uma tabela no estilo Embed para o seu produto com o comando `/enviar`. Vai abrir um prompt para que você configure a sua tabela.
 
 ![Prompt para tabela](tabelapreenchida.png)
 
 ![Anúncio de teste](anuncioteste.png)
 
-4. E aqui está seu primeiro anúncio! Note que:
+3. E aqui está seu primeiro anúncio! Note que:
  - O título do seu produto ao enviar deve ser exatamente igual ao nome adicionado no estoque. (Letras maiúsculas ou minúsculas não importam)
  - A quantidade disponível no estoque é obtida automaticamente!
 
