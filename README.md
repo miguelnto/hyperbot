@@ -30,7 +30,21 @@ O token de acesso (conhecido como chave SDK nesta documentação) é o que permi
 1. Você deve ter uma conta no Mercado Pago. Se você ainda não tem, faça o download do app no seu celular e prossiga com a criação da conta, que também não demora mais que 5 minutos. Não tem muita burrocracia e requer poucos passos.
 2. Você deve acessar o site oficial do [Mercado Pago.](https://www.mercadopago.com.br/home) Ao entrar no site, será pedido que você faça uma verificação para confirmar a sua identidade, por questões de segurança. Prossiga com a verificação.
 3. Após feito isso, você será direcionado para uma página parecida com esta:
+   
 ![Página inicial do MercadoPago](tutorial_pt3.gif)
+
+4. Você deve ir até "Meu negócio", e depois "Configurações", como mostrado no GIF acima.
+5. Aparecerá uma tela para configurar aplicação, e você deve preencher da seguinte forma:
+  - Em nome da aplicação, coloque o nome da sua loja/negócio.
+  - Marque pagamentos online.
+  - Marque que você está usando uma plataforma e-commerce.
+  - Na opção da plataforma que será usada para integrar, selecione WooCommerce ou Outra Plataforma. Recomendo selecionar outra plataforma.
+  - Abaixo da opção acima, selecione CheckoutPro.
+  - Marque o botão de confirmação e também "Não sou um robô".
+
+![Tela de configuração da aplicação](tutorial_pt5.png)
+
+Acima está uma figura detalhando o que você deve fazer.
 
 ## Comandos Principais
 
