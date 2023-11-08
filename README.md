@@ -25,7 +25,7 @@ Se você tem todos esses requisitos, por favor siga os seguintes passos **na ord
 
 ## Começando a usar
 
-1. Crie seu primeiro produto com o comando `/additem`, que cria um produto no estoque e já adiciona conteúdo para ele! Confira mais sobre esse comando em [comandos.](##comandos-principais)
+1. Crie seu primeiro produto com o comando `/additem`, que cria um produto no estoque e já adiciona conteúdo para ele! Confira mais sobre esse comando em [comandos.](#comandos-principais)
 
 ![Adicione um item](additem.png)
 ![Item adicionado com sucesso](additemresult.png)
