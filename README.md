@@ -23,6 +23,14 @@ Se você tem todos esses requisitos, por favor siga os seguintes passos **na ord
 -  Use o comando `/checar` para checar se o servidor foi configurado corretamente com a **chave SDK** e o **email**.
 - A configuração já foi feita e você pode começar a usar o bot!
 
+## Como obter o token de acesso (chave SDK)
+
+O token de acesso (conhecido como chave SDK nesta documentação) é o que permite que sejam criados novas cobranças de pagamentos em seu nome, e por isso é necessário para a aplicação do HyperBot. Esse token é guardado na base de dados de forma segura o suficiente para que apenas o HyperBot tenha acesso, quando necessário. Veja abaixo como obter este token (dura em torno de 5 minutos!)
+
+1. Você deve ter uma conta no Mercado Pago. Se você ainda não tem, faça o download do app no seu celular e prossiga com a criação da conta, que também não demora mais que 5 minutos. Não tem muita burrocracia e requer poucos passos.
+2. Você deve acessar o site oficial do [Mercado Pago.](https://www.mercadopago.com.br/home) Ao entrar no site, será pedido que você faça uma verificação para confirmar a sua identidade, por questões de segurança. Prossiga com a verificação.
+3. Após feito isso, você será direcionado para uma página parecida com esta:
+
 ## Comandos Principais
 
 #### `/enviar` - envia uma tabela para um produto. 
