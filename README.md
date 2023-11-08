@@ -30,6 +30,7 @@ O token de acesso (conhecido como chave SDK nesta documentação) é o que permi
 1. Você deve ter uma conta no Mercado Pago. Se você ainda não tem, faça o download do app no seu celular e prossiga com a criação da conta, que também não demora mais que 5 minutos. Não tem muita burrocracia e requer poucos passos.
 2. Você deve acessar o site oficial do [Mercado Pago.](https://www.mercadopago.com.br/home) Ao entrar no site, será pedido que você faça uma verificação para confirmar a sua identidade, por questões de segurança. Prossiga com a verificação.
 3. Após feito isso, você será direcionado para uma página parecida com esta:
+![Página inicial do MercadoPago](tutorial_pt3.gif)
 
 ## Comandos Principais
 
