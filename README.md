@@ -133,6 +133,6 @@ Para obter esse tipo de **descrição**, você deve escrever:
 ### Keys
 Por favor confira as informações relevantes sobre as keys abaixo:
 - Se você tem **2 ou mais** keys, por favor **NÃO** use o comando `/activate` várias vezes seguidas. Esse comando deve ser usado apenas **UMA VEZ** por mês, um ou dois dias antes de sua key expirar, usando uma nova key. *Detalhe: Não tem problema em esperar sua key expirar para usar o comando `/activate` novamente.*
-- Nenhum comando ou interação com o bot será possível se o bot não estiver ativado com a key. Se você quiser que o bot continue funcionando sem problemas, sempre ative seu server com uma nova key um dia antes da key expirar.
+- Nenhum comando ou interação com o bot será possível se o seu servidor não estiver ativado com a key.
 - As keys só funcionam uma vez. Se você tentar usar uma key usada, você vai receber uma mensagem de erro.
 - O horário da expiração da key é de acordo com o horário de brasília. Se sua key expira em `22/12/2031`, e são `00:01` do dia `22/12/2031` no horário de brasília, sua key já expirou.
