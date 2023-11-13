@@ -2,7 +2,7 @@
 
 ![hyperbot repository thumbnail](hyperui.png)
 
-A solução moderna para o mercado digital, com praticidade e simplicidade.
+**A solução moderna para o mercado digital, com praticidade e simplicidade.**
 
 
 ## Configuração inicial e como usar
@@ -136,7 +136,6 @@ Keys são usadas para a ativação da aplicação, com o intuito de manter a org
 ### Comandos
 Ao usar quaisquer comandos do bot, existem algumas regras principais:
 
-- O **preço** de um produto SEMPRE deve ser escrito com um ponto e nunca usando vírgula. `Exemplo: 2.15 ao invés de 2,15 para representar R$2,15.`
 - Para adicionar quebras de linha na **descrição** de um produto, use "\n". 
 Por exemplo:
 ```
