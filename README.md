@@ -79,36 +79,39 @@ Acima está uma figura detalhando o que você deve fazer.
 
 ## Comandos Principais
 
-#### `/enviar` - envia uma tabela para um produto. 
+#### `/anuncio` - envia uma anúncio para um produto. 
 *Um prompt será aberto para que sejam colocadas as informações essenciais, como nome do produto, descrição, preço e url da thumbnail da tabela. 
-Para usar esse comando, por favor leia mais informações [aqui.](#dúvidas-principais)*
+Para usar esse comando, por favor [leia mais informações aqui.](#dúvidas-principais)*
 
 #### `/additem` - adiciona um item ao estoque de um produto.
-*Esse comando deve ser usado quando você quer criar um novo produto ou adicionar um item para um produto já existente.* 
-*Parâmetros*
+
+*Esse é o comando principal que deve ser usado para adicionar itens na loja.*
 - **nome_produto** - o nome do produto.
 - **item** - informações que devem ser enviadas ao usuário quando ele comprar o produto.
-- *[opcional]* **qtd** - a quantidade de vezes que esta mesma combinação de produto e item devem ser adicionadas ao estoque. Por padrão, esse valor será 1. Não use um valor maior que 10. Mais informações [aqui.](#dúvidas-principais)
+- *[opcional]* **qtd** - a quantidade de vezes que este mesmo item deve ser adicionado ao estoque. Por padrão, esse valor será 1. Evite usar valores maiores que 100.
 
-#### `/removeproduto` - remove todos os itens do estoque de um produto.
+#### `/removeproduto` - remove todos os itens do estoque de um produto pelo nome.
 
-*Esse comando deve ser usado quando você quer deletar TOTALMENTE o estoque de um produto. A única coisa a ser passada é o **nome_produto** (nome do produto).*
+*Esse comando deve ser usado quando você quer deletar TOTALMENTE o estoque de um produto pelo nome.*
+- **nome_produto** - o nome do produto.
 
-#### `/info` - mostra todas as informações de um produto.
+#### `/removeitem` - remove um item do estoque pelo ID.
 
-*Esse comando mostra o nome do produto e a quantidade de itens restante no estoque. A única coisa a ser passada é o **nome_produto** (nome do produto).*
+*Esse comando deve ser usado quando você quer deletar um item do estoque pelo id.*
+- **id_do_item** - o id do tem.
 
-#### `/listproduto` - mostra todos os produtos disponíveis na loja.
+#### `/clear` - limpa completamente a loja, deletando todos os estoques.
 
-*Esse comando mostra o nome e a quantidade de itens no estoque de todos os produtos presentes na loja. Nada precisa ser passado.*
+*Cuidado. Este comando limpa a loja completamente, excluindo TODOS os itens. A configuração do servidor não é deletada.*
 
-#### `/feedback` - comando em manutenção.
+#### `/listprodutos` - mostra todos os produtos disponíveis na loja.
+
+*Esse comando mostra todos os produtos presentes na loja, com seu nome e quantidade disponível no estoque.*
 
 #### `/entrega` - registra a entrega de um produto.
 
-*Esse comando registra a entrega de um produto manualmente. 
-**Atenção: para que funcione corretamente, no seu servidor deve existir um canal que termine com a palavra entregas. Exemplo: #hyper-entregas, #super-entregas, #entregas, etc..*** 
-*Você deve passar para o comando as seguintes informações:*
+*Esse comando registra a entrega de um produto manualmente.*
+**Atenção: para que funcione corretamente, no seu servidor deve existir um canal que termine com a palavra entregas. Exemplo: #hyper-entregas, #super-entregas, #entregas, etc..**
 
 - **nome_produto** (nome do produto)
 - **qtd** (a quantidade de itens de um produto que foi enviada)
@@ -120,11 +123,38 @@ Para usar esse comando, por favor leia mais informações [aqui.](#dúvidas-prin
 
 #### `/getdb` - devolve um arquivo txt do estoque.
 
-*Esse comando envia um arquivo .txt contendo todos os itens do estoque. Nada precisa ser passado.*
+*Esse comando envia um arquivo .txt contendo todos os itens da loja.*
 
-#### `/avaliar` - comando em manutenção.
-#### `/removebyid` - comando em manutenção.
-#### `/carregar` - comando em manutenção.
+#### `carregar` - comando em manutenção.
+
+#### `additens` - comando em manutenção.
+
+## Comandos - Configurações
+
+#### `/configurar` - configura o bot com a chave SDK + email.
+
+- **sdkkey** - A chave SDK, que pode ser obtida em ....
+- **email** - Um email que você tenha acesso. Não pode ser o mesmo da sua conta do Mercado Pago.
+
+#### `/deletarconfig` - deleta a configuração da chave SDK + email.
+
+*Esse comando deve ser usado quando você pretende reconfigurar o servidor com uma nova chave SDK e email.*
+
+#### `/checar` - checa se o servidor está corretamente configurado com a chave SDK + email.
+
+*Caso tudo esteja certo, o BOT enviará as informações presentes na configuração.*
+
+## Comandos - Keys
+
+#### `/activate` - ativa o servidor com uma key.
+
+*Veja mais informações sobre a ativação de keys em ...*
+
+- **key** - A key a ser usada.
+
+#### `/expires` - mostra a data de expiração da key atual.
+
+*Veja mais informações sobre a data de expiração de keys em ...*
 
 ## Keys
 
