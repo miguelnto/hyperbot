@@ -125,9 +125,17 @@ Para usar esse comando, por favor [leia mais informações aqui.](#dúvidas-prin
 
 *Esse comando envia um arquivo .txt contendo todos os itens da loja.*
 
-#### `carregar` - comando em manutenção.
+#### `carregar` - carrega a loja com um arquivo txt/csv.
+
+Um arquivo txt ou csv deve ser enviado EXATAMENTE antes de usar esse comando.
+*Cuidado: esse comando limpa a loja completamente, excluindo TODOS os itens, e então adiciona itens na loja de acordo com o conteúdo do arquivo txt/csv.* **Seu arquivo deve estar no seguinte formato, onde a primeira coluna é o nome dos itens e a segunda é o item em si (o conteúdo do item):**
+
+![Arquivo CSV do google planilhas](carregar.png)
 
 #### `additens` - comando em manutenção.
+
+Um arquivo txt ou csv deve ser enviado EXATAMENTE antes de usar esse comando.
+*Cuidado: esse comando adiciona itens na loja de acordo com o conteúdo do arquivo txt/csv. Nenhum item anteriormente presente no estoque é excluido.* **Seu arquivo deve estar no mesmo formato necessário para o comando `/carregar`.**
 
 ## Comandos - Configurações
 
