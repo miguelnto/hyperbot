@@ -164,7 +164,8 @@ Keys são usadas para a ativação da aplicação, com o intuito de manter a org
 ## Dúvidas principais 
 
 ### Comandos
-Ao usar quaisquer comandos do bot, existem algumas regras principais:
+
+**Ao usar quaisquer comandos do bot, existem algumas regras principais:**
 
 - Para adicionar quebras de linha na **descrição** de um produto, use "\n". 
 Por exemplo:
@@ -178,4 +179,3 @@ Para obter esse tipo de **descrição**, você deve escrever:
 `Esse produto contém:\nBananas\nMorangos\nUvas`.
 
 - Uma **url para thumbnail** SEMPRE deve ser uma página que exibe apenas uma imagem. Exemplo: `https://upload.wikimedia.org/wikipedia/commons/7/74/White_domesticated_duck,_stretching.jpg`
-- Em qualquer comando, não é recomendável usar um valor maior que 50 para o parâmetro *qtd*. Se você quer que algum produto tenha um estoque "infinito", é recomendado usar o comando `/additem` com *qtd* igual a 50 quantas vezes forem necessário. Enquanto está sendo executado, não rode nenhum outro comando, e ao terminar, espere 5 segundos e rode novamente.
