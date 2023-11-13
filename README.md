@@ -128,7 +128,10 @@ Para usar esse comando, por favor [leia mais informações aqui.](#dúvidas-prin
 #### `carregar` - carrega a loja com um arquivo txt/csv.
 
 Um arquivo txt ou csv deve ser enviado EXATAMENTE antes de usar esse comando.
-*Cuidado: esse comando limpa a loja completamente, excluindo TODOS os itens, e então adiciona itens na loja de acordo com o conteúdo do arquivo txt/csv.* **Seu arquivo deve estar no seguinte formato, onde a primeira coluna é o nome dos itens e a segunda é o item em si (o conteúdo do item):**
+
+*Cuidado: esse comando limpa a loja completamente, excluindo TODOS os itens, e então adiciona itens na loja de acordo com o conteúdo do arquivo txt/csv.* 
+
+**Seu arquivo deve estar no seguinte formato, onde a primeira coluna é o nome dos itens e a segunda é o item em si (o conteúdo do item):**
 
 ![Arquivo CSV do google planilhas](carregar.png)
 
