@@ -25,12 +25,14 @@ Se você tem todos esses requisitos, por favor siga os seguintes passos **na ord
 
 ## Começando a usar
 
-1. Crie seu primeiro produto com o comando `/additem`, que cria um produto no estoque e já adiciona conteúdo para ele! Confira mais sobre esse comando em [comandos.](#comandos-principais)
+1. Crie um canal que termine com a palavra "entregas" e outro que termine com a palavra "vendas". Nesses canais, todas as suas vendas aprovadas ficarão registradas.
+
+1. Crie seu primeiro produto com o comando `/additem`, que cria um produto no estoque a partir do nome e do conteúdo. Confira mais sobre esse comando em [comandos.](#comandos-principais)
 
 ![Adicione um item](additem.png)
 ![Item adicionado com sucesso](additemresult.png)
 
-2. Envie uma tabela no estilo Embed para o seu produto com o comando `/enviar`. Vai abrir um prompt para que você configure a sua tabela.
+2. Envie um anúncio no estilo Embed para o seu produto com o comando `/anuncio`. Vai abrir um prompt para que você configure a sua tabela.
 
 ![Prompt para tabela](tabelapreenchida.png)
 
