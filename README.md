@@ -115,7 +115,7 @@ Para usar esse comando, por favor [leia mais informações aqui.](#dúvidas-prin
 
 - **nome_produto** (nome do produto)
 - **qtd** (a quantidade de itens de um produto que foi enviada)
-- **preco** (o preço do total comprado). `Exemplo: 2.10, 3.15, etc...`
+- **preco** (o preço do total comprado). `Exemplo: 2,30, 3,15`
 - **data** (a data da entrega do produto). Deve ser colocada no seguinte formato: "dia/mes/ano hora/minuto/segundo"
 ` Exemplo: 21/02/2023 13:47:15`
 - *[opcional]* **avaliacao** (o número no qual sua entrega foi avaliada, deve ser um número de 0 a 5). Se esse número não for passado, a mensagem que aparecerá é "Nenhuma avaliação enviada".
@@ -148,13 +148,9 @@ Para usar esse comando, por favor [leia mais informações aqui.](#dúvidas-prin
 
 #### `/activate` - ativa o servidor com uma key.
 
-*Veja mais informações sobre a ativação de keys em ...*
-
 - **key** - A key a ser usada.
 
 #### `/expires` - mostra a data de expiração da key atual.
-
-*Veja mais informações sobre a data de expiração de keys em ...*
 
 ## Keys
 
