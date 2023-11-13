@@ -30,13 +30,13 @@ Se você tem todos esses requisitos, por favor siga os seguintes passos **na ord
 2. Crie uma categoria cujo nome termine com a palavra `carrinho`. Nessa categoria, serão criados carrinhos (canais) que os usuários irão acessar para realizar a compra.
 
 3. Crie seu primeiro produto com o comando `/additem`, que cria um produto no estoque a partir do nome e do conteúdo. Confira mais sobre esse comando em [comandos.](#comandos-principais)
- - O título do seu produto ao enviar deve ser exatamente igual ao nome adicionado no estoque. (Letras maiúsculas ou minúsculas não importam)
- - A quantidade disponível no estoque é obtida automaticamente!
 
 ![Adicione um item](additem.png)
 ![Item adicionado com sucesso](additemresult.png)
 
 4. Envie um anúncio no estilo Embed para o seu produto com o comando `/anuncio`. Vai abrir um prompt para que você configure a sua tabela.
+ - O título do seu produto ao enviar deve ser exatamente igual ao nome adicionado no estoque. (Letras maiúsculas ou minúsculas não importam)
+ - A quantidade disponível no estoque é obtida automaticamente!
 
 ![Prompt para tabela](tabelapreenchida.png)
 
