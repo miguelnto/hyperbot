@@ -122,6 +122,15 @@ Para usar esse comando, por favor leia mais informações [aqui.](#dúvidas-prin
 #### `/removebyid` - comando em manutenção.
 #### `/carregar` - comando em manutenção.
 
+## Keys
+
+Keys são usadas para a ativação da aplicação, com o intuito de manter a organização de forma prática e permitir a distribuição do uso da aplicação. Confira a seguir informaçãoes essenciais sobre as keys:
+
+- Você deve usar apenas uma key e **uma vez** por mês. Se você tem 2 ou mais keys, aguarde até 1 ou 2 dias antes da data de expiração da key para usar uma nova. Se você usar uma key e em seguida usar outra, isso não extenderá o prazo de expiração.
+- Uma key funciona só uma vez. Se você tentar usar uma key usada, você vai receber uma mensagem de erro.
+- O horário da expiração da key é de acordo com o horário de brasília. Se sua key expira em `22/12/2031`, e são `00:01` do dia `22/12/2031` no horário de brasília, sua key já expirou.
+- Nenhum comando ou interação com o bot será possível se o seu servidor não estiver ativado com a key.
+
 ## Dúvidas principais 
 
 ### Comandos
@@ -141,9 +150,3 @@ Para obter esse tipo de **descrição**, você deve escrever:
 
 - Uma **url para thumbnail** SEMPRE deve ser uma página que exibe apenas uma imagem. Exemplo: `https://upload.wikimedia.org/wikipedia/commons/7/74/White_domesticated_duck,_stretching.jpg`
 - Em qualquer comando, não é recomendável usar um valor maior que 50 para o parâmetro *qtd*. Se você quer que algum produto tenha um estoque "infinito", é recomendado usar o comando `/additem` com *qtd* igual a 50 quantas vezes forem necessário. Enquanto está sendo executado, não rode nenhum outro comando, e ao terminar, espere 5 segundos e rode novamente.
-### Keys
-Por favor confira as informações relevantes sobre as keys abaixo:
-- Se você tem **2 ou mais** keys, por favor **NÃO** use o comando `/activate` várias vezes seguidas. Esse comando deve ser usado apenas **UMA VEZ** por mês, um ou dois dias antes de sua key expirar, usando uma nova key. *Detalhe: Não tem problema em esperar sua key expirar para usar o comando `/activate` novamente.*
-- Nenhum comando ou interação com o bot será possível se o seu servidor não estiver ativado com a key.
-- As keys só funcionam uma vez. Se você tentar usar uma key usada, você vai receber uma mensagem de erro.
-- O horário da expiração da key é de acordo com o horário de brasília. Se sua key expira em `22/12/2031`, e são `00:01` do dia `22/12/2031` no horário de brasília, sua key já expirou.
