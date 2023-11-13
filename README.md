@@ -88,7 +88,7 @@ Para usar esse comando, por favor [leia mais informações aqui.](#dúvidas-prin
 *Esse é o comando principal que deve ser usado para adicionar itens na loja.*
 - **nome_produto** - o nome do produto.
 - **item** - informações que devem ser enviadas ao usuário quando ele comprar o produto.
-- *[opcional]* **qtd** - a quantidade de vezes que este mesmo item deve ser adicionado ao estoque. Por padrão, esse valor será 1. Evite usar valores maiores que 100.
+- **qtd** - a quantidade de vezes que este mesmo item deve ser adicionado ao estoque. Por padrão, esse valor será 1. Evite usar valores maiores que 100.
 
 #### `/removeproduto` - remove todos os itens do estoque de um produto pelo nome.
 
