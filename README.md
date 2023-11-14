@@ -34,7 +34,7 @@ Se você tem todos esses requisitos, por favor siga os seguintes passos **na ord
 ![Adicione um item](additem.png)
 ![Item adicionado com sucesso](additemresult.png)
 
-4. Envie um anúncio no estilo Embed para o seu produto com o comando `/anuncio`. Vai abrir um prompt para que você configure a sua tabela.
+4. Envie um anúncio no estilo Embed para o seu produto com o comando `/anuncio`. Vai abrir um prompt para que você configure o seu anúncio.
  - O título do seu produto ao enviar deve ser exatamente igual ao nome adicionado no estoque. (Letras maiúsculas ou minúsculas não importam)
  - A quantidade disponível no estoque é obtida automaticamente!
 
@@ -80,7 +80,7 @@ Acima está uma figura detalhando o que você deve fazer.
 ## Comandos Principais
 
 #### `/anuncio` - envia uma anúncio para um produto. 
-*Um prompt será aberto para que sejam colocadas as informações essenciais, como nome do produto, descrição, preço e url da thumbnail da tabela. 
+*Um prompt será aberto para que sejam colocadas as informações essenciais, como nome do produto, descrição, preço e url da thumbnail do anúncio. 
 Para usar esse comando, por favor [leia mais informações aqui.](#dúvidas-principais)*
 
 #### `/additem` - adiciona um item ao estoque de um produto.
