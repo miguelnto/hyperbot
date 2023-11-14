@@ -127,11 +127,11 @@ Para usar esse comando, por favor [leia mais informações aqui.](#dúvidas-prin
 
 ![Database da loja](getdb.png)
 
-Em cada linhas, existem 3 informações: ID do item, nome do item, e o próprio item, nesta ordem. 
+Em cada linha, existem 3 informações: ID do item, nome do item, e o próprio item, nesta ordem. 
 
 Opcionalmente, você pode ativar o parâmetro **csv** para que o arquivo enviado seja do tipo .txt com o formato correto para ser reusado nos comandos `/carregar` ou `/additens`:
 
-![Opção csv](opcaocsv.png)
+![Opção csv](opcaoyes.png)
 
 ![Database da loja v2](getdb2.png)
 
