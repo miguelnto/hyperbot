@@ -125,6 +125,16 @@ Para usar esse comando, por favor [leia mais informações aqui.](#dúvidas-prin
 
 *Esse comando envia um arquivo .txt contendo todos os itens da loja.*
 
+![Database da loja](getdb.png)
+
+Em cada linhas, existem 3 informações: ID do item, nome do item, e o próprio item, nesta ordem. 
+
+Opcionalmente, você pode ativar o parâmetro **csv** para que o arquivo enviado seja do tipo .txt com o formato correto para ser reusado nos comandos `/carregar` ou `/additens`:
+
+![Opção csv](opcaocsv.png)
+
+![Database da loja v2](getdb2.png)
+
 #### `carregar` - carrega a loja com um arquivo txt ou csv.
 
 Um arquivo txt ou csv deve ser enviado EXATAMENTE antes de usar esse comando.
