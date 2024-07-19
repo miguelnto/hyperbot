@@ -1,11 +1,25 @@
-# HyperBot
+<div align="center">
 
-![hyperbot repository thumbnail](hyperui.png)
+# HyperBot
 
 **A solução moderna para o mercado digital, com praticidade e simplicidade.**
 
+![hyperbot repository thumbnail](hyperui.png)
 
-## Configuração inicial e como usar
+[![produto-hyperstore](https://img.shields.io/badge/produto%20hyperstore-%232B2F33.svg?style=for-the-badge&logoColor=white)](https://discord.gg/M7FURN5R88)
+![discord-bot](https://img.shields.io/badge/discord%20bot-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white)
+
+</div>
+
+---
+
+## Sumário
+
+- [Configuração inicial](#configuração-inicial)
+- [Começando a usar](#começando-a-usar)
+
+
+## Configuração inicial
 
 Requisitos:
 
@@ -24,6 +38,14 @@ Se você tem todos esses requisitos, por favor siga os seguintes passos **na ord
 - A configuração já foi feita e você pode começar a usar o bot!
 
 ## Começando a usar
+
+Sempre que um comprador faz uso do BOT através do botão da compra, um novo canal (que apenas o vendedor e o comprador podem ver) deve ser criado para que o comprador prossiga com a compra. Para isso, um categoria com o nome `carrinho` deve ser criada. Além disso, deve ser criado um canal criado `entregas`, e outro chamado `vendas`. No canal `entregas`, serão registrados logs de vendas feitas, sem informações sobre o comprador, e no canal `vendas`, haverá logs com informações sobre o comprador.
+**Resumindo, seu servidor precisa ter:**
+
+- Um canal com o nome `entregas`
+- Uma categoria com o nome `carrinho`
+- Opcionalmente, um canal com o nome `vendas`
+
 
 1. Crie um canal cujo nome termine com a palavra `entregas` e outro que termine com a palavra `vendas`. Nesses canais, todas as suas vendas aprovadas ficarão registradas.
 
