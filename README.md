@@ -42,29 +42,10 @@ Se você tem todos esses requisitos, por favor siga os seguintes passos **na ord
 Sempre que um comprador faz uso do BOT através do botão da compra, um novo canal (que apenas o vendedor e o comprador podem ver) deve ser criado para que o comprador prossiga com a compra. Para isso, um categoria com o nome `carrinho` deve ser criada. Além disso, deve ser criado um canal criado `entregas`, e outro chamado `vendas`. No canal `entregas`, serão registrados logs de vendas feitas, sem informações sobre o comprador, e no canal `vendas`, haverá logs com informações sobre o comprador.
 **Resumindo, seu servidor precisa ter:**
 
-- Um canal com o nome `entregas`
-- Uma categoria com o nome `carrinho`
-- Opcionalmente, um canal com o nome `vendas`
+- **Um canal com o nome `#entregas`**
+- **Uma categoria com o nome `#carrinho`**
+- **Opcionalmente, um canal com o nome `#vendas`**
 
-
-1. Crie um canal cujo nome termine com a palavra `entregas` e outro que termine com a palavra `vendas`. Nesses canais, todas as suas vendas aprovadas ficarão registradas.
-
-2. Crie uma categoria cujo nome termine com a palavra `carrinho`. Nessa categoria, serão criados carrinhos (canais) que os usuários irão acessar para realizar a compra.
-
-3. Crie seu primeiro produto com o comando `/additem`, que cria um produto no estoque a partir do nome e do conteúdo. Confira mais sobre esse comando em [comandos.](#comandos-principais)
-
-![Adicione um item](additem.png)
-![Item adicionado com sucesso](additemresult.png)
-
-4. Envie um anúncio no estilo Embed para o seu produto com o comando `/anuncio`. Vai abrir um prompt para que você configure o seu anúncio.
- - O título do seu produto ao enviar deve ser exatamente igual ao nome adicionado no estoque. (Letras maiúsculas ou minúsculas não importam)
- - A quantidade disponível no estoque é obtida automaticamente!
-
-![Prompt para tabela](tabelapreenchida.png)
-
-![Anúncio de teste](anuncioteste.png)
-
-5. E aqui está seu primeiro anúncio! Veja mais comandos e mais dicas para agilizar o processo de anunciar em [comandos.](#comandos-principais)
 
 ## Como obter o token de acesso (chave SDK)
 
@@ -99,13 +80,16 @@ Acima está uma figura detalhando o que você deve fazer.
 ![Credenciais de produção](credenciais.png)
 ![Credenciais de produção 2](credenciais2.png)
 
-## Comandos Principais
+## Comandos principais
 
-#### `/anuncio` - envia uma anúncio para um produto. 
-*Um prompt será aberto para que sejam colocadas as informações essenciais, como nome do produto, descrição, preço e url da thumbnail do anúncio. 
-Para usar esse comando, por favor [leia mais informações aqui.](#dúvidas-principais)*
+#### ⚙️ /anuncios
 
-#### `/additem` - adiciona um item ao estoque de um produto.
+Envia um painel para que você gerencie seus anúncios.
+Esse comando não possui parâmetros, pois ele já envia um painel interativo, assim como o abaixo:
+
+![hyperbot_anuncios](hyperbot-exemplo.png)
+
+---
 
 *Esse é o comando principal que deve ser usado para adicionar itens na loja.*
 - **nome_produto** - o nome do produto.
