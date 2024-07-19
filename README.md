@@ -82,7 +82,7 @@ Acima está uma figura detalhando o que você deve fazer.
 
 ## Comandos principais
 
-#### ⚙️ /anuncios
+### ⚙️ /anuncios
 
 Envia um painel para que você gerencie seus anúncios.
 Esse comando não possui parâmetros, pois ele já envia um painel interativo, assim como o abaixo:
@@ -91,9 +91,9 @@ Esse comando não possui parâmetros, pois ele já envia um painel interativo, a
 
 ---
 
-#### ⚙️ /criar_anuncio - `nome`, `descricao`, `imgurl`
+### ⚙️ /criar_anuncio - `nome`, `descricao`, `imgurl`
 
-Cria um anúncio para sua loja.
+*Cria um anúncio para sua loja.*
 
 - `nome` - O nome (ou título) do anúncio.
 - `descricao` - A descrição do anúncio.
@@ -101,7 +101,7 @@ Cria um anúncio para sua loja.
 
 ---
 
-#### ⚙️ /listar_itens - `anuncio_id`
+### ⚙️ /listar_itens - `anuncio_id`
 
 *Esse comando envia um arquivo .csv contendo todos os itens de um anúncio.*
 
@@ -109,9 +109,19 @@ Em cada linha, existem 3 informações: ID do item, nome do item, e o conteúdo 
 
 - `anuncio_id` - O ID de um anúncio no seu servidor. Este ID pode ser obtido no painel do comando `/anuncios`.
 
-![Opção csv](opcaoyes.png)
+--- 
 
-![Database da loja v2](getdb2.png)
+### ⚙️ /enviar_anuncio - `anuncio_id`, `preco`, `cargo`
+
+*Esse comando envia um anúncio no canal em que ele foi usado.*
+Perceba que o preço do anúncio é um parâmetro passado **no momento do envio.** Isso significa que os vendedores são livres para mudar os preços de seus anúncios. Além disso, todos os compradores **irão receber um cargo** ao fazer a compra de um anúncio, a depender do parâmetro `cargo`. Caso você não queira que um comprador receba um cargo extra, você pode colocar um **cargo padrão** para membros no parâmetro `cargo`. 
+
+- `anuncio_id` - O ID de um anúncio no seu servidor. Este ID pode ser obtido no painel do comando `/anuncios`.
+- `preco` - O preço atrelado ao anúncio. Pode ser escrito nos seguintes formatos: `9,70`, `9.70`.
+- `cargo` - O cargo que será dado ao comprador quando a comprar for aprovada.
+
+
+---
 
 #### `carregar` - carrega a loja com um arquivo txt ou csv.
 
