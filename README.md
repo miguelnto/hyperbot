@@ -91,51 +91,23 @@ Esse comando não possui parâmetros, pois ele já envia um painel interativo, a
 
 ---
 
-*Esse é o comando principal que deve ser usado para adicionar itens na loja.*
-- **nome_produto** - o nome do produto.
-- **item** - informações que devem ser enviadas ao usuário quando ele comprar o produto.
-- **qtd** - a quantidade de vezes que este mesmo item deve ser adicionado ao estoque. Por padrão, esse valor será 1. Evite usar valores maiores que 100.
+#### ⚙️ /criar_anuncio - `nome`, `descricao`, `imgurl`
 
-#### `/removeproduto` - remove todos os itens do estoque de um produto pelo nome.
+Cria um anúncio para sua loja.
 
-*Esse comando deve ser usado quando você quer deletar TOTALMENTE o estoque de um produto pelo nome.*
-- **nome_produto** - o nome do produto.
+- `nome` - O nome (ou título) do anúncio.
+- `descricao` - A descrição do anúncio.
+- `imgurl` - A URL da thumbnail do anúncio.
 
-#### `/removeitem` - remove um item do estoque pelo ID.
+---
 
-*Esse comando deve ser usado quando você quer deletar um item do estoque pelo id.*
-- **id_do_item** - o id do tem.
+#### ⚙️ /listar_itens - `anuncio_id`
 
-#### `/clear` - limpa completamente a loja, deletando todos os estoques.
+*Esse comando envia um arquivo .csv contendo todos os itens de um anúncio.*
 
-*Cuidado. Este comando limpa a loja completamente, excluindo TODOS os itens. A configuração do servidor não é deletada.*
+Em cada linha, existem 3 informações: ID do item, nome do item, e o conteúdo do item, nesta ordem. 
 
-#### `/listprodutos` - mostra todos os produtos disponíveis na loja.
-
-*Esse comando mostra todos os produtos presentes na loja, com seu nome e quantidade disponível no estoque.*
-
-#### `/entrega` - registra a entrega de um produto.
-
-*Esse comando registra a entrega de um produto manualmente.*
-**Atenção: para que funcione corretamente, no seu servidor deve existir um canal que termine com a palavra entregas. Exemplo: #hyper-entregas, #super-entregas, #entregas, etc..**
-
-- **nome_produto** (nome do produto)
-- **qtd** (a quantidade de itens de um produto que foi enviada)
-- **preco** (o preço do total comprado). `Exemplo: 2,30, 3,15`
-- **data** (a data da entrega do produto). Deve ser colocada no seguinte formato: "dia/mes/ano hora/minuto/segundo"
-` Exemplo: 21/02/2023 13:47:15`
-- *[opcional]* **avaliacao** (o número no qual sua entrega foi avaliada, deve ser um número de 0 a 5). Se esse número não for passado, a mensagem que aparecerá é "Nenhuma avaliação enviada".
-- *[opcional]* **desconto** (o valor do desconto dado) Caso não passado, será igual a 0.00.
-
-#### `/getdb` - devolve um arquivo txt do estoque.
-
-*Esse comando envia um arquivo .txt contendo todos os itens da loja.*
-
-![Database da loja](getdb.png)
-
-Em cada linha, existem 3 informações: ID do item, nome do item, e o próprio item, nesta ordem. 
-
-Opcionalmente, você pode ativar o parâmetro **csv** para que o arquivo enviado seja do tipo .txt com o formato correto para ser reusado nos comandos `/carregar` ou `/additens`:
+- `anuncio_id` - O ID de um anúncio no seu servidor. Este ID pode ser obtido no painel do comando `/anuncios`.
 
 ![Opção csv](opcaoyes.png)
 
