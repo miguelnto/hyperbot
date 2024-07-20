@@ -140,26 +140,32 @@ Esse comando atualiza todas as informações no anúncio, dado o ID de um anúnc
 
 ## Comandos - Configurações
 
-### ⚙️ `/configurar` - configura o bot com a chave SDK + email.
+### ⚙️ `/configurar` - `sdkkey`, `email`
 
-- **sdkkey** - A chave SDK, que pode ser obtida em ....
-- **email** - Um email que você tenha acesso. Não pode ser o mesmo da sua conta do Mercado Pago.
+Configura o bot com a chave SDK + Email.
 
-### ⚙️ `/deletar_config` - deleta a configuração da chave SDK + email.
+- `sdkkey` - A chave SDK, que pode ser obtida em [como obter a chave SDK (ou token de acesso).](#como-obter-o-token-de-acesso-chave-sdk)
+- `email` - Um email que você tenha acesso. Pode ser o mesmo da sua conta do Mercado Pago.
 
-*Esse comando deve ser usado quando você pretende reconfigurar o servidor com uma nova chave SDK e email.*
+### ⚙️ `/deletar_config`
 
-### ⚙️ `/checar` - checa se o servidor está corretamente configurado com a chave SDK + email.
+*Deleta a configuração da chave SDK + Email. Esse comando deve ser usado quando você pretende reconfigurar o servidor com uma nova chave SDK e email.* Esse comando não possui parâmetros.
 
-*Caso tudo esteja certo, o BOT enviará as informações presentes na configuração.*
+### ⚙️ `/checar`
+
+*Checa se o servidor está corretamente configurado com a chave SDK + Email. Caso tudo esteja certo, o BOT enviará as informações presentes na configuração.* Esse comando não possui parâmetros.
 
 ## Comandos - Keys
 
-### ⚙️ `/activate` - ativa o servidor com uma key.
+### ⚙️ `/activate`
 
-- **key** - A key a ser usada.
+Ativa o servidor com uma key.
 
-### ⚙️ `/expires` - mostra a data de expiração da key atual.
+- `key` - A key a ser usada.
+
+### ⚙️ `/expires`
+
+Mostra a data de expiração da key atual. Esse comando não possui parâmetros.
 
 ## Keys
 
