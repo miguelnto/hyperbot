@@ -138,6 +138,8 @@ Esse comando atualiza todas as informações no anúncio, dado o ID de um anúnc
 - `imgurl` - A nova URL da thumbnail do anúncio.
 - `anuncio_id` - O ID do anúncio a ser mudado.
 
+---
+
 ## Comandos - Configurações
 
 ### ⚙️ `/configurar` - `sdkkey`, `email`
