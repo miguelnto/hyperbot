@@ -23,6 +23,7 @@
 - [Comandos - Keys](#comandos---keys)
 - [Keys](#keys)
 - [Dúvidas principais](#dúvidas-principais)
+- [Contato](#contato)
 
 
 ## Configuração inicial
@@ -186,3 +187,13 @@ Para obter esse tipo de **descrição**, você deve escrever:
 `Esse produto contém:\nBananas\nMorangos\nUvas`.
 
 - Uma **url para thumbnail** SEMPRE deve ser uma página que exibe apenas uma imagem. Exemplo: `https://upload.wikimedia.org/wikipedia/commons/7/74/White_domesticated_duck,_stretching.jpg`
+
+## Contato
+
+🚀 **Esse BOT foi desenvolvido com carinho por Miguel, desenvolvedor full stack.**
+
+Todos os links de contato estão abaixo. Vem trocar uma ideia comigo! 🖖
+
+- **Email: miguelup01@outlook.com**
+- **Servidor: [HyperStore](https://discord.gg/M7FURN5R88)**
+- **Discord: miguelnto**
