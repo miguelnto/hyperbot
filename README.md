@@ -120,25 +120,16 @@ Perceba que o preço do anúncio é um parâmetro passado **no momento do envio.
 - `preco` - O preço atrelado ao anúncio. Pode ser escrito nos seguintes formatos: `9,70`, `9.70`.
 - `cargo` - O cargo que será dado ao comprador quando a comprar for aprovada.
 
-
 ---
 
-#### `carregar` - carrega a loja com um arquivo txt ou csv.
+### ⚙️ /atualizar_anuncio - `nome`, `descricao`, `imgurl`, `anuncio_id`
 
-Um arquivo txt ou csv deve ser enviado EXATAMENTE antes de usar esse comando.
+Esse comando atualiza todas as informações no anúncio, dado o ID de um anúncio. Este ID pode ser obtido no painel do comando `/anuncios`.
 
-*Cuidado: esse comando limpa a loja completamente, excluindo TODOS os itens, e então adiciona itens na loja de acordo com o conteúdo do arquivo txt ou csv.* 
-
-**Seu arquivo deve estar no seguinte formato, onde a primeira coluna é o nome dos itens e a segunda é o item em si (o conteúdo do item):**
-
-![Arquivo CSV do google planilhas](carregar.png)
-
-#### `additens` - comando em manutenção.
-
-Um arquivo txt ou csv deve ser enviado EXATAMENTE antes de usar esse comando.
-*Cuidado: esse comando adiciona itens na loja de acordo com o conteúdo do arquivo txt ou csv. Nenhum item anteriormente presente na loja é excluido.* 
-
-**Seu arquivo deve estar no mesmo formato necessário para o comando `/carregar`.**
+- `nome` - O novo nome do anúncio.
+- `descricao` - A nova descrição do anúncio.
+- `imgurl` - A nova URL da thumbnail do anúncio.
+- `anuncio_id` - O ID do anúncio a ser mudado.
 
 ## Comandos - Configurações
 
@@ -147,7 +138,7 @@ Um arquivo txt ou csv deve ser enviado EXATAMENTE antes de usar esse comando.
 - **sdkkey** - A chave SDK, que pode ser obtida em ....
 - **email** - Um email que você tenha acesso. Não pode ser o mesmo da sua conta do Mercado Pago.
 
-#### `/deletarconfig` - deleta a configuração da chave SDK + email.
+#### `/deletar_config` - deleta a configuração da chave SDK + email.
 
 *Esse comando deve ser usado quando você pretende reconfigurar o servidor com uma nova chave SDK e email.*
 
