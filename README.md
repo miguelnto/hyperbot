@@ -16,11 +16,11 @@
 ## Sumário
 
 - [Configuração inicial](#configuração-inicial)
- - [Começando a usar](#começando-a-usar)
- - [Como obter a chave SDK (ou token de acesso)](#como-obter-o-token-de-acesso-chave-sdk)
+  - [Começando a usar](#começando-a-usar)
+  - [Como obter a chave SDK (ou token de acesso)](#como-obter-o-token-de-acesso-chave-sdk)
 - [Comandos principais](#comandos-principais)
- - [Comandos - Configurações](#comandos---configurações)
- - [Comandos - Keys](#comandos---keys)
+  - [Comandos - Configurações](#comandos---configurações)
+  - [Comandos - Keys](#comandos---keys)
 - [Keys](#keys)
 - [Contato](#contato)
 
