@@ -177,24 +177,14 @@ Mostra a data de expiração da key atual. Esse comando não possui parâmetros.
 - Uma key funciona só uma vez. Se você tentar usar uma key usada, você vai receber uma mensagem alertando que a key não pôde ser usada para ativar o BOT.
 - Nenhum comando ou interação com o bot será possível se o BOT não estiver ativado com a key.
 
-## Dúvidas principais 
+---
 
-### Sobre comandos
+## Como adquirir
 
-**Ao usar quaisquer comandos do bot, existem algumas regras principais:**
+**Você pode adquirir este BOT oficialmente no nosso [canal oficial do Discord.](https://discord.gg/M7FURN5R88) Você também encontra atualizações e poderá entrar em contato com o suporte.**
 
-- Para adicionar quebras de linha na **descrição** de um produto, use "\n". 
-Por exemplo:
-```
-Esse produto contém:
-Bananas
-Morangos
-Uvas
-```
-Para obter esse tipo de **descrição**, você deve escrever: 
-`Esse produto contém:\nBananas\nMorangos\nUvas`.
-
-- Uma **url para thumbnail** SEMPRE deve ser uma página que exibe apenas uma imagem. Exemplo: `https://upload.wikimedia.org/wikipedia/commons/7/74/White_domesticated_duck,_stretching.jpg`
+[![produto-hyperstore](https://img.shields.io/badge/adquirir%20produto-%232B2F33.svg?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/M7FURN5R88)
+![suporte-e-garantia](https://img.shields.io/badge/%E2%9C%94%20garantia%20e%20%20suporte-%23107C10.svg?style=for-the-badge&logoColor=white)
 
 ## Contato
 
